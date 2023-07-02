@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #fdfaf3;
+    margin: 0px;
+   
+}
+/* header Styleing */
+.conatiner-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.title{
+    border-right: 2px solid black;
+    padding: 1rem;
+}
+.name{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+   
+}
+.resume{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-left: 2px solid black;
+  padding: 1rem;
+}
+
+.mainBodyConatiner{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.mainLeftConatiner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.generalInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.head{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#portfolio{
+    color: #FF4D00
+}
+
+.skill{
+    padding: 20px 0px;
+}
+
+.skills{
+   width: 153px;
+   height: 47px;
+   margin-right: 30px;
+   padding: 5px 20px;
+   border: 2px solid black;
+   border-radius: 50px
+}
+
+.skills:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#info{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bod{
+    border: 1px solid black;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    margin: 20px
+}
+
+.workExp{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.socials > span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mainRightConatiner > img{
+  height: 685px;
+}
+
+.logo > img{
+    margin-left: 20px;
+}
+
